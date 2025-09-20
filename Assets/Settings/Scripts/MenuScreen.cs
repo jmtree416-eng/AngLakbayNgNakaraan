@@ -6,7 +6,7 @@ public class MenuScreen : MonoBehaviour
 {
    public void OnPlayButton()
     {
-        SceneManager.LoadScene("MiniGame");
+        SceneManager.LoadSceneAysnc(1);
     }
     public void OnQuitButton()
     {
